@@ -33,7 +33,8 @@ int main()
                         nk = 2;
                     }
                     
-                    if (0 <= ni && ni <= m && 0 <= nj && nj <= S){ ndp[ni][nj][nk] += dp[i][j][k];
+                    if (0 <= ni && ni <= m && 0 <= nj && nj <= S){ 
+                        ndp[ni][nj][nk] += dp[i][j][k];
                     }
                 }
             }
